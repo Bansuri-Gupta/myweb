@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+ <title>Table tags, form tags</title>
+</head>
+<body>
+<p><font color="green" face="arial"> First Form </font></p>
+<form align="center" name="firstform">
+	<table border="1">
+	<tr><td> Registration number</td> 
+	<td><input type="text" name="rn"> </td></tr>
+	<tr><td>Password </td> 
+	<td> <input type="password" name="pw"></td></tr>
+	<tr><td>Campus</td>
+	<td>
+		<input type="checkbox" name="chn">Chennai
+		<input type="checkbox" name="Vlr">Vellore
+		</td></tr>
+	<tr ><td colspan="2" align="center"> <input type="submit"> </td> </tr>
+	</table>
+</form>
+</body>
+
+</html>
